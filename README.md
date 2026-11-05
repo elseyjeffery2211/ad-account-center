@@ -4,6 +4,10 @@ A Windows desktop app (PowerShell + WinForms) for running bulk Active Directory 
 
 Paste one username or a list of hundreds, pick an action, review the exact commands, confirm, and watch results stream in per account.
 
+![AD Account Center main window](docs/screenshot.png)
+
+*Screenshot from the original in-house version; the public version renames "Move Middle School" to a configurable "Move to OU".*
+
 ## The problem
 
 Routine account work, like disabling departing users, moving students to a new class OU at the start of a year, or stripping group memberships before an account is retired, meant remoting into the server and running the same command-line tools account by account. That's slow, easy to get wrong when you're copying and pasting dozens of distinguished names, and hard to hand off to anyone else.
