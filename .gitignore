@@ -1,0 +1,3 @@
+# Real environment values and per-user window settings stay local
+config.json
+settings.json

@@ -1,0 +1,23 @@
+{
+  "Domain": "example.org",
+  "AdminAccount": "EXAMPLE\\admin.jdoe",
+  "StudentDisabledOu": "OU=Student Disabled Accounts,OU=User Accounts,DC=example,DC=org",
+  "StaffDisabledOu": "OU=Disabled Accounts,OU=User Accounts,DC=example,DC=org",
+  "MoveDestinations": [
+    {
+      "Key": "class_2031",
+      "Label": "Class of 2031",
+      "DistinguishedName": "OU=2031,OU=Students,OU=User Accounts,DC=example,DC=org"
+    },
+    {
+      "Key": "class_2032",
+      "Label": "Class of 2032",
+      "DistinguishedName": "OU=2032,OU=Students,OU=User Accounts,DC=example,DC=org"
+    },
+    {
+      "Key": "class_2033",
+      "Label": "Class of 2033",
+      "DistinguishedName": "OU=2033,OU=Students,OU=User Accounts,DC=example,DC=org"
+    }
+  ]
+}
